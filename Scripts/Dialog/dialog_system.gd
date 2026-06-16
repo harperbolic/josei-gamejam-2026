@@ -7,13 +7,13 @@ var dialog_lines : Dictionary = {}
 var current_line_index = 0
 
 var text_box
-var portraits
-var current_client
 
 var is_dialog_active = false
 var can_advance_line = false
 
 signal dialog_ended
+signal set_character(char_name : String, expression : String)
+signal textbox_char_passed(char_name : String, should_open : bool)
 
 func start_dialog(lines: Dictionary):
 	print("Dialog : Dialog Started")
@@ -21,13 +21,9 @@ func start_dialog(lines: Dictionary):
 		return
 	
 	dialog_lines =  lines
-	_show_portraits()
 	_show_text_box()
 	
 	is_dialog_active = true
-
-func _show_portraits():
-	pass
 
 func _show_text_box():
 	text_box = text_box_scene.instantiate()
@@ -35,8 +31,16 @@ func _show_text_box():
 	add_child(text_box)
 	text_box.display_text(dialog_lines[str(current_line_index)].text, dialog_lines[str(current_line_index)].name)
 	can_advance_line = false
+	
+	# set expression
+	set_character.emit(dialog_lines[str(current_line_index)].name, dialog_lines[str(current_line_index)].expression)
+
 
 func _display_next_line():
+	#change expression
+	set_character.emit(dialog_lines[str(current_line_index)].name, dialog_lines[str(current_line_index)].expression)
+	
+	#display next line
 	text_box.display_text(dialog_lines[str(current_line_index)].text, dialog_lines[str(current_line_index)].name)
 	can_advance_line = false
 

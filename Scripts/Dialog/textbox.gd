@@ -41,11 +41,14 @@ func _display_letter():
 		"!", ".", ",", "?", "…":
 			timer.start(punc_time)
 			voice = "none"
+			Dialog.textbox_char_passed.emit(speaker_name, false)
 		" ":
 			timer.start(space_time)
 			voice = "none"
+			Dialog.textbox_char_passed.emit(speaker_name, false)
 		_:
 			timer.start(letter_time)
+			Dialog.textbox_char_passed.emit(speaker_name, true)
 
 func _on_letter_display_timer_timeout() -> void:
 	_display_letter()
@@ -55,3 +58,4 @@ func _unhandled_input(event) -> void:
 		event.is_action_pressed("advance_dialog")
 	):
 		letter_index = text.length()
+		Dialog.textbox_char_passed.emit(speaker_name, false)

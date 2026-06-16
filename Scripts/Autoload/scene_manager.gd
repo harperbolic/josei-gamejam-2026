@@ -1,0 +1,31 @@
+extends Node
+
+var SM : String = "Scene Manager: "
+
+var scenes = {
+	"main_menu" : "res://scenes/main_menu.tscn",
+	"police_hall" : "res://Scenes/police_hall.tscn",
+	"police_room" : "res://Scenes/police_room.tscn"
+}
+
+var transition_scene = preload("res://Components/UI/loading_screen.tscn")
+
+@onready var scene = load(scenes["police_hall"]).instantiate()
+@onready var old_scene = scene
+@onready var current_room = 0
+
+func _ready() -> void:
+	print(SM, "Scene 'main_menu' loaded")
+	add_child(scene)
+
+func change_scene(scene_str : String) -> void:
+	var transition = transition_scene.instantiate()
+	add_child(transition)
+	transition.fade_in()
+	await transition.fade_finished
+	old_scene.queue_free()
+	scene = load(scenes[scene_str]).instantiate()
+	print(SM, "Scene '", scene_str, "' loaded.")
+	add_child.call_deferred(scene)
+	old_scene = scene
+	transition.fade_out()

@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://bacuocaf77wvf"]
+
+[ext_resource type="Texture2D" uid="uid://ddii5dvqtj8iq" path="res://_PLACEHOLDER/Assets/BG_Delegacia01.jpg" id="2_b1nsd"]
+[ext_resource type="Script" uid="uid://cfnmfg6nxrdo4" path="res://Scripts/interactable_object.gd" id="3_o0jiy"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cmfd7"]
+size = Vector2(163, 456)
+
+[node name="DialogSystemtesting" type="Node" unique_id=661062207]
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1969953742]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_b1nsd")
+expand_mode = 3
+
+[node name="Characters" type="Node2D" parent="." unique_id=417173478]
+
+[node name="BlinkTimer" type="Timer" parent="." unique_id=754298478]
+one_shot = true
+autostart = true
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=872755675]
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer" unique_id=845554156]
+offset_left = 200.0
+offset_top = 168.0
+offset_right = 430.0
+offset_bottom = 221.0
+
+[node name="Area2D" type="Area2D" parent="." unique_id=2030903999]
+position = Vector2(789.5, 293)
+script = ExtResource("3_o0jiy")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1878106470]
+shape = SubResource("RectangleShape2D_cmfd7")
+
+[connection signal="mouse_entered" from="Area2D" to="Area2D" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Area2D" to="Area2D" method="_on_mouse_exited"]

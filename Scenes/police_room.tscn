@@ -1,0 +1,158 @@
+[gd_scene format=3 uid="uid://bnlgbpgflshnr"]
+
+[ext_resource type="Script" uid="uid://dqlaq835ak8eo" path="res://Scripts/Testing.gd" id="1_lq4et"]
+[ext_resource type="Texture2D" uid="uid://1akhkl4fk6j0" path="res://Assets/Background/police_room.png" id="2_irbir"]
+[ext_resource type="Script" uid="uid://bh6c0htxgkfbp" path="res://Scripts/Dialog/dialog_character.gd" id="3_4ppfb"]
+[ext_resource type="Texture2D" uid="uid://3r4s54numa7y" path="res://_PLACEHOLDER/Assets/Helena_Friendly.png" id="3_sx6hp"]
+[ext_resource type="Texture2D" uid="uid://bt501oljo6qbn" path="res://_PLACEHOLDER/Assets/Helena_Friendly_closed_mouth.png" id="4_vdlfs"]
+[ext_resource type="Texture2D" uid="uid://bs18xrki32v18" path="res://_PLACEHOLDER/Assets/Helena_Friendly_Blink.png" id="5_irbir"]
+[ext_resource type="Texture2D" uid="uid://c8t3mpcdg2eiq" path="res://_PLACEHOLDER/Assets/Helena_Worried.png" id="7_irbir"]
+
+[node name="DialogSystemtesting" type="Node" unique_id=661062207 node_paths=PackedStringArray("background")]
+script = ExtResource("1_lq4et")
+background = NodePath("TextureRect")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1969953742]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_irbir")
+expand_mode = 3
+
+[node name="Characters" type="Node2D" parent="." unique_id=417173478]
+
+[node name="Helena" type="Node2D" parent="Characters" unique_id=293403822]
+unique_name_in_owner = true
+position = Vector2(1190, 327)
+script = ExtResource("3_4ppfb")
+character_name = "Helena"
+
+[node name="Happy" type="Control" parent="Characters/Helena" unique_id=1529680828]
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Idle" type="TextureRect" parent="Characters/Helena/Happy" unique_id=2137917100]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -405.0
+offset_top = -184.0
+offset_right = -70.0
+offset_bottom = 325.0
+grow_horizontal = 0
+grow_vertical = 2
+texture = ExtResource("4_vdlfs")
+
+[node name="Blinking" type="TextureRect" parent="Characters/Helena/Happy" unique_id=1888459945]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -405.0
+offset_top = -184.0
+offset_right = -70.0
+offset_bottom = 325.0
+grow_horizontal = 0
+grow_vertical = 2
+texture = ExtResource("5_irbir")
+
+[node name="Speaking" type="TextureRect" parent="Characters/Helena/Happy" unique_id=508111525]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -405.0
+offset_top = -184.0
+offset_right = -70.0
+offset_bottom = 325.0
+grow_horizontal = 0
+grow_vertical = 2
+texture = ExtResource("3_sx6hp")
+
+[node name="Worried" type="Control" parent="Characters/Helena" unique_id=1819514532]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 7.0
+offset_right = 7.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Idle" type="TextureRect" parent="Characters/Helena/Worried" unique_id=900862272]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -405.0
+offset_top = -184.0
+offset_right = -155.32465
+offset_bottom = 325.0
+grow_horizontal = 0
+grow_vertical = 2
+texture = ExtResource("7_irbir")
+expand_mode = 3
+
+[node name="Blinking" type="TextureRect" parent="Characters/Helena/Worried" unique_id=283662541]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -422.0
+offset_top = -184.0
+offset_right = -87.0
+offset_bottom = 325.0
+grow_horizontal = 0
+grow_vertical = 2
+texture = ExtResource("5_irbir")
+
+[node name="Speaking" type="TextureRect" parent="Characters/Helena/Worried" unique_id=1826598379]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -422.0
+offset_top = -190.0
+offset_right = -87.0
+offset_bottom = 319.0
+grow_horizontal = 0
+grow_vertical = 2
+texture = ExtResource("3_sx6hp")
+
+[node name="BlinkTimer" type="Timer" parent="." unique_id=754298478]
+one_shot = true
+autostart = true
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=872755675]
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer" unique_id=845554156]
+offset_left = 200.0
+offset_top = 168.0
+offset_right = 430.0
+offset_bottom = 221.0
+
+[connection signal="timeout" from="BlinkTimer" to="Characters/Helena" method="_on_blink_timer_timeout"]
