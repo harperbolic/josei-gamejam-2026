@@ -1,7 +1,6 @@
 extends CanvasLayer
 
-var screens = ["res://Components/UI/loading_screens/bus.tscn",
-"res://Components/UI/loading_screens/flags.tscn"]
+var screens = ["res://Components/UI/loading_screens/bus.tscn"]
 
 var screen
 var anim_player

@@ -1,0 +1,79 @@
+[gd_scene format=3 uid="uid://cjnk1l4740jk5"]
+
+[ext_resource type="Script" uid="uid://cnrsrme26imrb" path="res://Scripts/UI/choice_button.gd" id="1_3dbks"]
+[ext_resource type="Texture2D" uid="uid://cdw7eitlpxchq" path="res://Assets/UI/choice_button.png" id="1_y5yta"]
+[ext_resource type="FontFile" uid="uid://cflsy26icxrcp" path="res://Assets/EB_Garamond/EBGaramond-VariableFont_wght.ttf" id="4_ptcf2"]
+[ext_resource type="Texture2D" uid="uid://c03wjm7egcpv2" path="res://Assets/UI/icon_log.png" id="4_yr7gk"]
+
+[node name="Choice" type="Control" unique_id=1647012803]
+custom_minimum_size = Vector2(920, 134)
+layout_mode = 3
+anchors_preset = 0
+offset_right = 899.0
+offset_bottom = 133.0
+script = ExtResource("1_3dbks")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=943664789]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_y5yta")
+
+[node name="MarginContainer" type="MarginContainer" parent="TextureRect" unique_id=1530843086]
+z_as_relative = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 10.5
+offset_top = 0.5
+offset_right = 10.5
+offset_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 128
+
+[node name="HBoxContainer" type="HBoxContainer" parent="TextureRect/MarginContainer" unique_id=858208343]
+z_as_relative = false
+layout_mode = 2
+theme_override_constants/separation = 16
+
+[node name="Marker" type="TextureRect" parent="TextureRect/MarginContainer/HBoxContainer" unique_id=627789258]
+unique_name_in_owner = true
+visible = false
+z_as_relative = false
+layout_mode = 2
+size_flags_vertical = 4
+texture = ExtResource("4_yr7gk")
+stretch_mode = 2
+flip_h = true
+
+[node name="Label" type="RichTextLabel" parent="TextureRect/MarginContainer/HBoxContainer" unique_id=446732449]
+unique_name_in_owner = true
+z_as_relative = false
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_fonts/normal_font = ExtResource("4_ptcf2")
+theme_override_font_sizes/normal_font_size = 48
+bbcode_enabled = true
+text = "Texto padrão, isso é um erro."
+vertical_alignment = 1
+
+[node name="Button" type="Button" parent="." unique_id=1854125431]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("4_ptcf2")
+theme_override_font_sizes/font_size = 48
+flat = true
+alignment = 0
+
+[connection signal="mouse_entered" from="Button" to="." method="_on_button_mouse_entered"]
+[connection signal="mouse_exited" from="Button" to="." method="_on_button_mouse_exited"]
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

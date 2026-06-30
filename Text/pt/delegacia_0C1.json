@@ -1,0 +1,14 @@
+{
+  "0": {
+	"name": "Helena",
+	"expression": "neutral",
+	"text": "Que bom. Eu nunca entendi direito por que você foi embora, mas fico feliz que tenha se encontrado.",
+	"exec": ""
+  },
+  "1": {
+	"name": "Exec",
+	"expression": "",
+	"text": "start_dialog",
+	"exec": "delegacia_1"
+  }
+}

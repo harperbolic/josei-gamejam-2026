@@ -1,0 +1,65 @@
+[
+  {
+    "ID": 0,
+    "name": "Helena",
+    "expression": "worried",
+    "text": "Bem, eu não sei se é algo que qualquer pessoa mencionaria como “marcante”, mas teve algo há mais ou menos um mês que me marcou muito.",
+    "exec": ""
+  },
+  {
+    "ID": 1,
+    "name": "Protagonista",
+    "expression": "",
+    "text": "O quê?",
+    "exec": ""
+  },
+  {
+    "ID": 2,
+    "name": "Helena",
+    "expression": "worried",
+    "text": "Nós estávamos em uma perseguição.",
+    "exec": ""
+  },
+  {
+    "ID": 3,
+    "name": "Helena",
+    "expression": "worried",
+    "text": "Uns caras foram pegos invadindo uma casa e estavam fugindo de carro com joias, dinheiro, essas coisas.",
+    "exec": ""
+  },
+  {
+    "ID": 4,
+    "name": "Helena",
+    "expression": "worried",
+    "text": "Geralmente, eu não participo tanto da ação, fico mais na papelada. Mas eu estava na rua nessa noite.",
+    "exec": ""
+  },
+  {
+    "ID": 5,
+    "name": "Helena",
+    "expression": "anxious",
+    "text": "Eu…",
+    "exec": ""
+  },
+  {
+    "ID": 6,
+    "name": "Helena",
+    "expression": "rubbing_temples",
+    "text": "Desculpa, é difícil falar nisso.",
+    "exec": ""
+  },
+  {
+    "ID": 7,
+    "name": "CH",
+    "expression": "",
+    "text": "Insistir",
+    "exec": "delegacia_1C2_C1"
+  },
+  {
+    "ID": 8,
+    "name": "CH",
+    "expression": "",
+    "text": "Deixar quieto",
+    "exec": "delegacia_1C2_C2"
+  }
+]

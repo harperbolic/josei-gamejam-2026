@@ -1,0 +1,35 @@
+[gd_scene format=3 uid="uid://dnbo3wix4v73w"]
+
+[ext_resource type="Texture2D" uid="uid://ddivlatqkm5mf" path="res://_PLACEHOLDER/Assets/BG_Cidade.jpg" id="2_26yhd"]
+[ext_resource type="Script" uid="uid://cfnmfg6nxrdo4" path="res://Scripts/interactable_object.gd" id="2_p3ir5"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_26yhd"]
+radius = 76.0
+height = 152.0
+
+[node name="DialogSystemtesting" type="Node" unique_id=661062207]
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1969953742]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_26yhd")
+expand_mode = 3
+
+[node name="BlinkTimer" type="Timer" parent="." unique_id=754298478]
+one_shot = true
+autostart = true
+
+[node name="PD" type="Area2D" parent="." unique_id=60279327]
+script = ExtResource("2_p3ir5")
+next_scene = "police_hall"
+metadata/_custom_type_script = "uid://cfnmfg6nxrdo4"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PD" unique_id=717764982]
+position = Vector2(869, 188)
+shape = SubResource("CapsuleShape2D_26yhd")
+
+[connection signal="mouse_entered" from="PD" to="PD" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="PD" to="PD" method="_on_mouse_exited"]

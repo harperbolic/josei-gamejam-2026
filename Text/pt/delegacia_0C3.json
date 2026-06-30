@@ -1,0 +1,14 @@
+{
+  "0": {
+	"name": "Helena",
+	"expression": "neutral",
+	"text": "Ah... Tudo bem, respeito sua privacidade. Eu tô aqui se quiser conversar depois.",
+	"exec": ""
+  },
+  "1": {
+	"name": "Exec",
+	"expression": "",
+	"text": "start_dialog",
+	"exec": "delegacia_1"
+  }
+}

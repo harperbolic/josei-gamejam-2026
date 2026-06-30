@@ -4,7 +4,10 @@
 [ext_resource type="Script" uid="uid://cfnmfg6nxrdo4" path="res://Scripts/interactable_object.gd" id="3_o0jiy"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_cmfd7"]
-size = Vector2(163, 456)
+size = Vector2(163, 723)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wu707"]
+size = Vector2(1940.25, 74)
 
 [node name="DialogSystemtesting" type="Node" unique_id=661062207]
 
@@ -34,9 +37,22 @@ offset_bottom = 221.0
 [node name="Area2D" type="Area2D" parent="." unique_id=2030903999]
 position = Vector2(789.5, 293)
 script = ExtResource("3_o0jiy")
+next_scene = "police_room"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1878106470]
+position = Vector2(514.5, 185.5)
 shape = SubResource("RectangleShape2D_cmfd7")
+
+[node name="Interactable" type="Area2D" parent="." unique_id=351942392]
+script = ExtResource("3_o0jiy")
+next_scene = "map"
+metadata/_custom_type_script = "uid://cfnmfg6nxrdo4"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Interactable" unique_id=1891861065]
+position = Vector2(959.875, 1045)
+shape = SubResource("RectangleShape2D_wu707")
 
 [connection signal="mouse_entered" from="Area2D" to="Area2D" method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="Area2D" to="Area2D" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="Interactable" to="Interactable" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Interactable" to="Interactable" method="_on_mouse_exited"]

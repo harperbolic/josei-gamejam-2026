@@ -1,49 +1,69 @@
 [gd_scene format=3 uid="uid://uqk5q1pugte2"]
 
 [ext_resource type="Script" uid="uid://daejtl64xs8ix" path="res://Scripts/Dialog/textbox.gd" id="1_urf0r"]
+[ext_resource type="Texture2D" uid="uid://dnvigrsc2mbnp" path="res://_PLACEHOLDER/BG_DP.jpg" id="2_s7oma"]
+[ext_resource type="Texture2D" uid="uid://so6me0gmjbta" path="res://Assets/UI/textbox.png" id="3_y0q6v"]
+[ext_resource type="FontFile" uid="uid://cflsy26icxrcp" path="res://Assets/EB_Garamond/EBGaramond-VariableFont_wght.ttf" id="4_3jn8p"]
+[ext_resource type="FontFile" uid="uid://b0gxkwfdkfk3t" path="res://Assets/EB_Garamond/EBGaramond-Italic-VariableFont_wght.ttf" id="5_01s6n"]
 
 [node name="Textbox" type="CanvasLayer" unique_id=1148450848]
 script = ExtResource("1_urf0r")
 
-[node name="Container" type="ColorRect" parent="." unique_id=326575232]
+[node name="TextureRect" type="TextureRect" parent="." unique_id=765659588]
+visible = false
+self_modulate = Color(1, 1, 1, 0.41568628)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_s7oma")
+expand_mode = 1
+
+[node name="Container" type="TextureRect" parent="." unique_id=1886892255]
+self_modulate = Color(0.012617188, 0.000417689, 0.0014438524, 1)
 custom_minimum_size = Vector2(800, 150)
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -186.0
+grow_horizontal = 2
+grow_vertical = 0
+texture = ExtResource("3_y0q6v")
+expand_mode = 5
+
+[node name="Name" type="Label" parent="Container" unique_id=864049234]
+layout_mode = 0
+offset_left = 128.0
+offset_top = 228.8982
+offset_right = 505.0
+offset_bottom = 287.8982
+theme_override_fonts/font = ExtResource("4_3jn8p")
+theme_override_font_sizes/font_size = 40
+text = "CHARACTER NAME"
+
+[node name="Text" type="RichTextLabel" parent="Container" unique_id=897094416]
+clip_contents = false
+layout_mode = 1
 anchors_preset = 7
 anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-offset_left = -400.0
-offset_top = -182.0
-offset_right = 400.0
-offset_bottom = -32.0
+offset_left = -836.0
+offset_top = -169.00003
+offset_right = 836.0
 grow_horizontal = 2
 grow_vertical = 0
-color = Color(0, 0, 0, 0.45490196)
-
-[node name="Name" type="Label" parent="Container" unique_id=593825211]
-layout_mode = 0
-offset_left = 8.0
-offset_top = -50.0
-offset_right = 508.0
-offset_bottom = -3.0
-theme_override_font_sizes/font_size = 32
-text = "Character Name"
-vertical_alignment = 1
-
-[node name="Text" type="RichTextLabel" parent="Container" unique_id=897094416]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 33.0
-offset_top = 11.0
-offset_right = -6.0
-offset_bottom = 1999.0
-grow_horizontal = 2
-grow_vertical = 2
-theme_override_font_sizes/normal_font_size = 28
+theme_override_fonts/normal_font = ExtResource("4_3jn8p")
+theme_override_fonts/bold_italics_font = ExtResource("5_01s6n")
+theme_override_fonts/italics_font = ExtResource("5_01s6n")
+theme_override_font_sizes/normal_font_size = 40
+theme_override_font_sizes/bold_italics_font_size = 40
+theme_override_font_sizes/italics_font_size = 40
+bbcode_enabled = true
 text = "This is a placeholder text. You should not be able to see this :("
-fit_content = true
 autowrap_trim_flags = 128
 visible_characters_behavior = 1
 

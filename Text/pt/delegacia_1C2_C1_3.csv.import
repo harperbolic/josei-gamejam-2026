@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://b1limine3xgbv"
+
+[deps]
+
+files=["res://Text/pt/delegacia_1C2_C1_3.name.translation", "res://Text/pt/delegacia_1C2_C1_3.expression.translation", "res://Text/pt/delegacia_1C2_C1_3.text.translation", "res://Text/pt/delegacia_1C2_C1_3.exec.translation"]
+
+source_file="res://Text/pt/delegacia_1C2_C1_3.csv"
+dest_files=["res://Text/pt/delegacia_1C2_C1_3.name.translation", "res://Text/pt/delegacia_1C2_C1_3.expression.translation", "res://Text/pt/delegacia_1C2_C1_3.text.translation", "res://Text/pt/delegacia_1C2_C1_3.exec.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

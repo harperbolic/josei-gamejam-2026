@@ -1,0 +1,51 @@
+[
+  {
+    "ID": 0,
+    "name": "Helena",
+    "expression": "rubbing_temples",
+    "text": "De qualquer forma, eu já dei meu depoimento e foi considerado um acidente.",
+    "exec": ""
+  },
+  {
+    "ID": 1,
+    "name": "Helena",
+    "expression": "rubbing_temples",
+    "text": "Oficialmente, não foi culpa minha.",
+    "exec": ""
+  },
+  {
+    "ID": "",
+    "name": "Helena",
+    "expression": "shrug",
+    "text": "Mas você sabe como eu sou.",
+    "exec": ""
+  },
+  {
+    "ID": "",
+    "name": "Helena",
+    "expression": "neutral",
+    "text": "Eu tô há dias sem conseguir dormir direito por causa disso.",
+    "exec": ""
+  },
+  {
+    "ID": "",
+    "name": "Helena",
+    "expression": "worried",
+    "text": "Só consigo lembrar do que minha mãe disse quando eu virei policial, de que “se eu acabasse matando alguém, não ia ter mais volta.”",
+    "exec": ""
+  },
+  {
+    "ID": "",
+    "name": "CH",
+    "expression": "",
+    "text": "Confortá-la",
+    "exec": "delegacia_1C2_C1_2C1"
+  },
+  {
+    "ID": "",
+    "name": "CH",
+    "expression": "",
+    "text": "Criticá-la",
+    "exec": "delegacia_1C2_C1_2C2"
+  }
+]

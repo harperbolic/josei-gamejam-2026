@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://nirp8gg85y67"
+
+[deps]
+
+files=["res://Text/pt/delegacia_1C2_C1_2C2.name.translation", "res://Text/pt/delegacia_1C2_C1_2C2.expression.translation", "res://Text/pt/delegacia_1C2_C1_2C2.text.translation", "res://Text/pt/delegacia_1C2_C1_2C2.exec.translation"]
+
+source_file="res://Text/pt/delegacia_1C2_C1_2C2.csv"
+dest_files=["res://Text/pt/delegacia_1C2_C1_2C2.name.translation", "res://Text/pt/delegacia_1C2_C1_2C2.expression.translation", "res://Text/pt/delegacia_1C2_C1_2C2.text.translation", "res://Text/pt/delegacia_1C2_C1_2C2.exec.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

@@ -1,0 +1,14 @@
+{
+  "0": {
+	"name": "Helena",
+	"expression": "neutral",
+	"text": "Você deve estar adorando, então. Você nunca gostou muito de coisas pacatas.",
+	"exec": ""
+  },
+  "1": {
+	"name": "Exec",
+	"expression": "",
+	"text": "start_dialog",
+	"exec": "delegacia_1"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "0": {
+	"name": "Helena",
+	"expression": "neutral",
+	"text": "Mas, então, o que te traz ao nosso pequeno fim de mundo?",
+	"exec": ""
+  },
+  "1": {
+	"name": "Protagonista",
+	"expression": "",
+	"text": "Hum… Você lembra que eu costumava ter algumas visões de coisas que iriam acontecer?",
+	"exec": ""
+  },
+  "2": {
+	"name": "Helena",
+	"expression": "worried",
+	"text": "Sim?",
+	"exec": ""
+  },
+  "3": {
+	"name": "Protagonista",
+	"expression": "",
+	"text": "Bem… Digamos que eu tive uma sobre Terra Rubra…",
+	"exec": ""
+  },
+  "4": {
+	"name": "Helena",
+	"expression": "worried",
+	"text": "Pela sua cara, imagino que não tenha sido boa.",
+	"exec": ""
+  },
+  "5": {
+	"name": "Protagonista",
+	"expression": "",
+	"text": "Não, não foi.",
+	"exec": ""
+  },
+  "6": {
+	"name": "Protagonista",
+	"expression": "",
+	"text": "Mas, sinceramente, eu nem consegui entender ela direito.",
+	"exec": ""
+  },
+  "7": {
+	"name": "Protagonista",
+	"expression": "",
+	"text": "Tinham pessoas gritando, um rugido estranho…",
+	"exec": ""
+  },
+  "8": {
+	"name": "Protagonista",
+	"expression": "",
+	"text": "Eu só sei que vai acontecer algo na festa junina da igreja.",
+	"exec": ""
+  },
+  "9": {
+	"name": "Helena",
+	"expression": "anxious",
+	"text": "É hoje à noite.",
+	"exec": ""
+  },
+  "10": {
+	"name": "Protagonista",
+	"expression": "",
+	"text": "Eu sei. Eu vim pra cá o quanto antes.",
+	"exec": ""
+  },
+  "11": {
+	"name": "Protagonista",
+	"expression": "",
+	"text": "Não podia deixar algo assim acontecer com a nossa cidade, mesmo depois de tanto tempo longe.",
+	"exec": ""
+  },
+  "12": {
+	"name": "Protagonista",
+	"expression": "",
+	"text": "Nem com você.",
+	"exec": ""
+  },
+  "13": {
+	"name": "Helena",
+	"expression": "anxious",
+	"text": "E você… tem certeza de que vai acontecer?",
+	"exec": ""
+  },
+  "14": {
+	"name": "Protagonista",
+	"expression": "",
+	"text": "Se não fizermos nada, provavelmente.",
+	"exec": ""
+  },
+  "15": {
+	"name": "Protagonista",
+	"expression": "",
+	"text": "Mas a gente já conseguiu impedir minhas visões antes.",
+	"exec": ""
+  },
+  "16": {
+	"name": "Helena",
+	"expression": "rubbing_temples",
+	"text": "Eu sei, mas… a gente sabia o que ia acontecer.",
+	"exec": ""
+  },
+  "17": {
+	"name": "Helena",
+	"expression": "rubbing_temples",
+	"text": "Como vamos impedir uma coisa que você nem sabe o que é?",
+	"exec": ""
+  },
+  "18": {
+	"name": "Protagonista",
+	"expression": "",
+	"text": "Por isso que vim aqui primeiro. Você deve saber de tudo que acontece de ruim por aqui.",
+	"exec": ""
+  },
+  "19": {
+	"name": "Helena",
+	"expression": "worried",
+	"text": "É, faz sentido.",
+	"exec": ""
+  },
+  "20": {
+	"name": "Helena",
+	"expression": "worried",
+	"text": "Você tem alguma sugestão de por onde começar?",
+	"exec": ""
+  },
+  "21": {
+	"name": "",
+	"expression": "",
+	"text": "Hum… eu deveria perguntar sobre...",
+	"exec": ""
+  },
+  "22": {
+	"name": "CH",
+	"expression": "",
+	"text": "Denúncias recentes",
+	"exec": "delegacia_1C1"
+  },
+  "23": {
+	"name": "CH",
+	"expression": "",
+	"text": "Casos marcantes",
+	"exec": "delegacia_1C2"
+  },
+  "24": {
+	"name": "CH",
+	"expression": "",
+	"text": "Festa junina",
+	"exec": "delegacia_1C3"
+  }
+}

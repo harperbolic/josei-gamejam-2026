@@ -1,0 +1,56 @@
+{
+  "0": {
+	"name": "Voz feminina",
+	"expression": "",
+	"text": "Pode entrar!",
+	"exec": ""
+  },
+  "1": {
+	"name": "Helena",
+	"expression": "surprised",
+	"text": "Não acredito!! {name}! Como assim?",
+	"exec": ""
+  },
+  "2": {
+	"name": "Protagonista",
+	"expression": "",
+	"text": "",
+	"exec": ""
+  },
+  "3": {
+	"name": "Helena",
+	"expression": "surprised",
+	"text": "Mulher, eu não te vejo há séculos! Você nem pra me avisar que vinha pra cá!",
+	"exec": ""
+  },
+  "4": {
+	"name": "Protagonista",
+	"expression": "",
+	"text": "Foi meio às pressas, na verdade.",
+	"exec": ""
+  },
+  "5": {
+	"name": "Helena",
+	"expression": "neutral",
+	"text": "Ainda assim, podia ter me mandado um torpedo. E aí, como vai a vida?",
+	"exec": ""
+  },
+  "6": {
+	"name": "CH",
+	"expression": "",
+	"text": "Ótima",
+	"exec": "delegacia_0C1"
+  },
+  "7": {
+	"name": "CH",
+	"expression": "",
+	"text": "Maluca",
+	"exec": "delegacia_0C2"
+  },
+  "8": {
+	"name": "CH",
+	"expression": "",
+	"text": "Prefiro não falar sobre isso",
+	"exec": "delegacia_0C3"
+  }
+}

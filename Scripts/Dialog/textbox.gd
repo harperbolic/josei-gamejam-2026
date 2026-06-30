@@ -23,13 +23,20 @@ signal finished_displaying
 func display_text(text_to_display : String, speaker_name_func : String):
 	letter_index = 0
 	speaker_name = speaker_name_func
-	char_name.text = speaker_name
+	match speaker_name:
+		"Protagonista":
+			char_name.text = Def.save.char_name
+		"":
+			char_name.text = ""
+			text_to_display = "[i]" + text_to_display + "[/i]"
+		_:
+			char_name.text = speaker_name
 	
 	text = text_to_display
 	_display_letter()
 
 func _display_letter():
-	text_label.text = text
+	text_label.text = text.format({"name": Def.save.char_name})
 	text_label.visible_characters = letter_index + 1
 	
 	letter_index += 1
@@ -47,8 +54,8 @@ func _display_letter():
 			voice = "none"
 			Dialog.textbox_char_passed.emit(speaker_name, false)
 		_:
-			timer.start(letter_time)
 			Dialog.textbox_char_passed.emit(speaker_name, true)
+			timer.start(letter_time)
 
 func _on_letter_display_timer_timeout() -> void:
 	_display_letter()
