@@ -1,16 +1,8 @@
-[
-  {
-    "ID": 0,
-    "name": "Helena",
-    "expression": "neutral",
-    "text": "Sim, sempre de sexta-feira.",
-    "exec": ""
-  },
-  {
-    "ID": 1,
-    "name": "Exec",
-    "expression": "",
-    "text": "start_dialog",
-    "exec": "delegacia_2"
+{
+  "0": {
+	"name": "Helena",
+	"expression": "neutral",
+	"text": "Sim, sempre de sexta-feira.",
+	"exec": ""
   }
-]
+}

@@ -1,84 +1,57 @@
 [gd_scene format=3 uid="uid://dbytfcqayiaii"]
 
 [ext_resource type="Texture2D" uid="uid://dn1rjurspbl71" path="res://Assets/UI/icon_menu.png" id="1_jlq7c"]
-[ext_resource type="Script" uid="uid://c1dr0kbj2hgcn" path="res://Scripts/UI/icons.gd" id="1_vfgom"]
-[ext_resource type="FontFile" uid="uid://cflsy26icxrcp" path="res://Assets/EB_Garamond/EBGaramond-VariableFont_wght.ttf" id="2_4o4wl"]
 [ext_resource type="Texture2D" uid="uid://bp2tlgv65ljj5" path="res://Assets/UI/icon_notebook.png" id="2_rx1pk"]
 [ext_resource type="Texture2D" uid="uid://c03wjm7egcpv2" path="res://Assets/UI/icon_log.png" id="3_vfgom"]
 
 [node name="StartingScene" type="Node" unique_id=243423417]
 
 [node name="CanvasGroup" type="CanvasLayer" parent="." unique_id=2056262619]
+visible = false
 
 [node name="Container" type="Control" parent="CanvasGroup" unique_id=422976930]
 layout_mode = 3
-anchors_preset = 0
-offset_left = 8.0
-offset_top = 8.0
-offset_right = 88.0
-offset_bottom = 234.0
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -19.0
+offset_top = 61.0
+offset_right = -19.0
+offset_bottom = 61.0
+grow_horizontal = 0
 
 [node name="VBoxContainer" type="VBoxContainer" parent="CanvasGroup/Container" unique_id=1109368365]
-layout_mode = 0
-offset_right = 74.0
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -74.0
 offset_bottom = 224.0
+grow_horizontal = 0
 theme_override_constants/separation = 8
-script = ExtResource("1_vfgom")
-
-[node name="HBoxContainer" type="HBoxContainer" parent="CanvasGroup/Container/VBoxContainer" unique_id=490452199]
-layout_mode = 2
-
-[node name="Button" type="Button" parent="CanvasGroup/Container/VBoxContainer/HBoxContainer" unique_id=376973701]
-layout_mode = 2
-icon = ExtResource("1_jlq7c")
-flat = true
-
-[node name="Label" type="Label" parent="CanvasGroup/Container/VBoxContainer/HBoxContainer" unique_id=997108411]
-visible = false
-layout_mode = 2
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("2_4o4wl")
-theme_override_font_sizes/font_size = 32
-text = "Menu"
-
-[node name="HBoxContainer2" type="HBoxContainer" parent="CanvasGroup/Container/VBoxContainer" unique_id=76221265]
-layout_mode = 2
 alignment = 1
 
-[node name="Button" type="Button" parent="CanvasGroup/Container/VBoxContainer/HBoxContainer2" unique_id=504314136]
-layout_mode = 2
-icon = ExtResource("2_rx1pk")
-flat = true
-
-[node name="Label" type="Label" parent="CanvasGroup/Container/VBoxContainer/HBoxContainer2" unique_id=1346435589]
-visible = false
-layout_mode = 2
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("2_4o4wl")
-theme_override_font_sizes/font_size = 32
-text = "Notebook"
-
-[node name="HBoxContainer3" type="HBoxContainer" parent="CanvasGroup/Container/VBoxContainer" unique_id=1386387061]
-layout_mode = 2
-
-[node name="Button" type="Button" parent="CanvasGroup/Container/VBoxContainer/HBoxContainer3" unique_id=373822955]
+[node name="Button" type="Button" parent="CanvasGroup/Container/VBoxContainer" unique_id=373822955]
 layout_mode = 2
 icon = ExtResource("3_vfgom")
 flat = true
 
-[node name="Label" type="Label" parent="CanvasGroup/Container/VBoxContainer/HBoxContainer3" unique_id=406240335]
-visible = false
+[node name="Button2" type="Button" parent="CanvasGroup/Container/VBoxContainer" unique_id=504314136]
 layout_mode = 2
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("2_4o4wl")
-theme_override_font_sizes/font_size = 32
-text = "Log"
+icon = ExtResource("2_rx1pk")
+flat = true
+
+[node name="Button3" type="Button" parent="CanvasGroup/Container/VBoxContainer" unique_id=376973701]
+layout_mode = 2
+icon = ExtResource("1_jlq7c")
+flat = true
+icon_alignment = 1
 
 [connection signal="mouse_entered" from="CanvasGroup/Container/VBoxContainer" to="CanvasGroup/Container/VBoxContainer" method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="CanvasGroup/Container/VBoxContainer" to="CanvasGroup/Container/VBoxContainer" method="_on_mouse_exited"]
-[connection signal="mouse_entered" from="CanvasGroup/Container/VBoxContainer/HBoxContainer/Button" to="CanvasGroup/Container/VBoxContainer" method="_on_mouse_entered"]
-[connection signal="mouse_exited" from="CanvasGroup/Container/VBoxContainer/HBoxContainer/Button" to="CanvasGroup/Container/VBoxContainer" method="_on_mouse_exited"]
-[connection signal="mouse_entered" from="CanvasGroup/Container/VBoxContainer/HBoxContainer2/Button" to="CanvasGroup/Container/VBoxContainer" method="_on_mouse_entered"]
-[connection signal="mouse_exited" from="CanvasGroup/Container/VBoxContainer/HBoxContainer2/Button" to="CanvasGroup/Container/VBoxContainer" method="_on_mouse_exited"]
-[connection signal="mouse_entered" from="CanvasGroup/Container/VBoxContainer/HBoxContainer3/Button" to="CanvasGroup/Container/VBoxContainer" method="_on_mouse_entered"]
-[connection signal="mouse_exited" from="CanvasGroup/Container/VBoxContainer/HBoxContainer3/Button" to="CanvasGroup/Container/VBoxContainer" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasGroup/Container/VBoxContainer/Button" to="CanvasGroup/Container/VBoxContainer" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasGroup/Container/VBoxContainer/Button" to="CanvasGroup/Container/VBoxContainer" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasGroup/Container/VBoxContainer/Button2" to="CanvasGroup/Container/VBoxContainer" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasGroup/Container/VBoxContainer/Button2" to="CanvasGroup/Container/VBoxContainer" method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="CanvasGroup/Container/VBoxContainer/Button3" to="CanvasGroup/Container/VBoxContainer" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="CanvasGroup/Container/VBoxContainer/Button3" to="CanvasGroup/Container/VBoxContainer" method="_on_mouse_exited"]

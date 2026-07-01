@@ -1,0 +1,26 @@
+{
+  "0": {
+    "name": "protagonista",
+    "expression": "",
+    "text": "Pelo visto, ela tinha razão.",
+    "exec": ""
+  },
+  "1": {
+    "name": "Helena",
+    "expression": "sad_smile",
+    "text": "Pois é. Eu devia ter dado ouvidos e seguido outra carreira.",
+    "exec": ""
+  },
+  "2": {
+    "name": "Helena",
+    "expression": "sad_smile",
+    "text": "Mas, não, eu tinha que insistir em consertar essa cidade, e olha como acabou.",
+    "exec": ""
+  },
+  "3": {
+    "name": "Exec",
+    "expression": "",
+    "text": "start_dialog",
+    "exec": "delegacia_1C2_C1_3"
+  }
+}

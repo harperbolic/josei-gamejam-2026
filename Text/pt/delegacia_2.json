@@ -1,0 +1,92 @@
+{
+  "0": {
+	"name": "Helena",
+	"expression": "surprised",
+	"text": "",
+	"exec": ""
+  },
+  "1": {
+	"name": "Policial",
+	"expression": "",
+	"text": "A testemunha da briga no bar chegou.",
+	"exec": ""
+  },
+  "2": {
+	"name": "Helena",
+	"expression": "side_eye",
+	"text": "Ok, eu já vou lá.",
+	"exec": ""
+  },
+  "3": {
+	"name": "Helena",
+	"expression": "neutral",
+	"text": "Eu preciso ir resolver isso.",
+	"exec": ""
+  },
+  "4": {
+	"name": "Helena",
+	"expression": "neutral",
+	"text": "Fica à vontade pra explorar a cidade.",
+	"exec": ""
+  },
+  "5": {
+	"name": "Helena",
+	"expression": "neutral",
+	"text": "Se tiver alguma pista, pode me ligar, ok?",
+	"exec": ""
+  },
+  "6": {
+	"name": "Protagonista",
+	"expression": "",
+	"text": "Pode deixar.",
+	"exec": ""
+  },
+  "7": {
+	"name": "Helena",
+	"expression": "surprised",
+	"text": "Ah, espera! Toma isso.",
+	"exec": ""
+  },
+  "8": {
+	"name": "Helena",
+	"expression": "neutral",
+	"text": "Marquei os lugares que tiveram denúncias estranhas nas últimas semans.",
+	"exec": ""
+  },
+  "9": {
+	"name": "Helena",
+	"expression": "neutral",
+	"text": "Talvez ajude a gente a ter por onde começar.",
+	"exec": ""
+  },
+  "10": {
+	"name": "",
+	"expression": "",
+	"text": "ITEM RECEBIDO: MAPA DE OCORRÊNCIAS",
+	"exec": ""
+  },
+  "11": {
+	"name": "",
+	"expression": "",
+	"text": "Bar, igreja e padaria",
+	"exec": ""
+  },
+  "12": {
+	"name": "",
+	"expression": "",
+	"text": "Esses lugares podem ser um bom ponto de partida. Melhor registrar isso.",
+	"exec": ""
+  },
+  "13": {
+	"name": "",
+	"expression": "",
+	"text": "Certo. Por onde eu começo?",
+	"exec": ""
+  },
+  "14": {
+	"name": "Helena",
+	"expression": "worried",
+	"text": "Pois não?",
+	"exec": ""
+  }
+}

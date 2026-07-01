@@ -1,0 +1,14 @@
+{
+  "0": {
+	"name": "Protagonista",
+	"expression": "",
+	"text": "Tudo bem, podemos parar por aqui.",
+	"exec": ""
+  },
+  "1": {
+	"name": "Helena",
+	"expression": "sad_smile",
+	"text": "Obrigada.",
+	"exec": ""
+  },
+}

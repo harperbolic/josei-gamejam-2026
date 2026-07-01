@@ -1,0 +1,68 @@
+{
+  "0": {
+	"name": "Helena",
+	"expression": "neutral",
+	"text": "Ela tava podre.",
+	"exec": ""
+  },
+  "1": {
+	"name": "Helena",
+	"expression": "neutral",
+	"text": "Tipo, extremamente podre.",
+	"exec": ""
+  },
+  "2": {
+	"name": "Helena",
+	"expression": "neutral",
+	"text": "Chamei uns engenheiros ambientais pra avaliar, e disseram que precisava ser cortada, porque tinha risco de cair a qualquer momento.",
+	"exec": ""
+  },
+  "3": {
+	"name": "Helena",
+	"expression": "neutral",
+	"text": "E aí, já viu, né? Se cai num carro, numa pessoa, nos fios de energia, depois vira um problemão.",
+	"exec": ""
+  },
+  "4": {
+	"name": "Helena",
+	"expression": "neutral",
+	"text": "Então eu mandei cortar. E aí, foi uma comoção só.",
+	"exec": ""
+  },
+  "5": {
+	"name": "Helena",
+	"expression": "eye_roll",
+	"text": "Falaram que a árvore não podia ser cortada porque era a mais antiga da cidade.",
+	"exec": ""
+  },
+  "6": {
+	"name": "Helena",
+	"expression": "eye_roll",
+	"text": "Teve protesto, jogaram ovo na delegacia… teve até gente se amarrando na árvore.",
+	"exec": ""
+  },
+  "7": {
+	"name": "Helena",
+	"expression": "neutral",
+	"text": "Mas, no fim, cortamos mesmo assim.",
+	"exec": ""
+  },
+  "8": {
+	"name": "Protagonist",
+	"expression": "",
+	"text": "E você acha que essas pessoas vão atacar a festa pra se vingarem?",
+	"exec": ""
+  },
+  "9": {
+	"name": "Helena",
+	"expression": "shrug",
+	"text": "Bem, disseram que eu teria consequências por cortar a árvore.",
+	"exec": ""
+  },
+  "10": {
+	"name": "Helena",
+	"expression": "shrug",
+	"text": "Talvez essa seja a consequência.",
+	"exec": ""
+  },
+}

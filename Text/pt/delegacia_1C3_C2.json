@@ -1,0 +1,14 @@
+{
+  "0": {
+	"name": "Helena",
+	"expression": "neutral",
+	"text": "Essa mesmo.",
+	"exec": ""
+  },
+  "1": {
+	"name": "Exec",
+	"expression": "",
+	"text": "start_dialog",
+	"exec": "delegacia_1C3_2"
+  }
+}

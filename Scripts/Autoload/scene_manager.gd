@@ -3,7 +3,10 @@ extends Node
 var SM : String = "Scene Manager: "
 
 var scenes = {
-	"main_menu" : "res://scenes/main_menu.tscn",
+	"intro" : "res://Scenes/intro.tscn",
+	"thanks" : "res://Scenes/ending.tscn",
+	"splash_screen" : "res://Scenes/splash_screen.tscn",
+	"main_menu" : "res://Scenes/main_menu.tscn",
 	"map" : "res://Scenes/map.tscn",
 	"police_hall" : "res://Scenes/police_hall.tscn",
 	"police_room" : "res://Scenes/police_room.tscn",
@@ -12,7 +15,7 @@ var scenes = {
 var transition_scene = preload("res://Components/UI/loading_screen.tscn")
 signal scene_finished_loading
 
-@onready var scene = load(scenes["police_hall"]).instantiate()
+@onready var scene = load(scenes["splash_screen"]).instantiate()
 @onready var old_scene = scene
 @onready var current_room = 0
 

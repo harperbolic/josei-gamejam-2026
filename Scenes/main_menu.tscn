@@ -1,0 +1,255 @@
+[gd_scene format=3 uid="uid://b7prepj4alvn0"]
+
+[ext_resource type="Script" uid="uid://cudi7xap5quki" path="res://Scripts/UI/main_menu.gd" id="1_1ehe0"]
+[ext_resource type="Texture2D" uid="uid://vdc1klkyuqi0" path="res://Assets/Background/TelaMenu.png" id="1_28flt"]
+[ext_resource type="FontFile" uid="uid://cflsy26icxrcp" path="res://Assets/EB_Garamond/EBGaramond-VariableFont_wght.ttf" id="2_48xlc"]
+
+[node name="MainMenu" type="CanvasLayer" unique_id=553006438]
+script = ExtResource("1_1ehe0")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=797936661]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -204.0
+offset_top = -356.0
+offset_right = 204.0
+offset_bottom = 124.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_28flt")
+
+[node name="Menu" type="VBoxContainer" parent="." unique_id=1427823025]
+unique_name_in_owner = true
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -673.0
+offset_top = -150.0
+offset_right = -214.0
+offset_bottom = 150.0
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="start_game_button" type="Button" parent="Menu" unique_id=454421036]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.54901963, 0.3764706, 1)
+theme_override_fonts/font = ExtResource("2_48xlc")
+theme_override_font_sizes/font_size = 64
+text = "START_GAME"
+flat = true
+
+[node name="settings_button" type="Button" parent="Menu" unique_id=515518762]
+visible = false
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.54901963, 0.3764706, 1)
+theme_override_fonts/font = ExtResource("2_48xlc")
+theme_override_font_sizes/font_size = 64
+text = "SETTINGS_BUTTON"
+flat = true
+
+[node name="credits_button" type="Button" parent="Menu" unique_id=345821424]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.54901963, 0.3764706, 1)
+theme_override_fonts/font = ExtResource("2_48xlc")
+theme_override_font_sizes/font_size = 64
+text = "CREDITS_BUTTON"
+flat = true
+
+[node name="exit_button" type="Button" parent="Menu" unique_id=1338892789]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.54901963, 0.3764706, 1)
+theme_override_fonts/font = ExtResource("2_48xlc")
+theme_override_font_sizes/font_size = 64
+text = "QUIT_BUTTON"
+flat = true
+
+[node name="Options" type="VBoxContainer" parent="." unique_id=2032035957]
+unique_name_in_owner = true
+visible = false
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -491.0
+offset_top = -286.0
+offset_right = -49.0
+offset_bottom = 286.0
+grow_horizontal = 0
+grow_vertical = 2
+theme_override_constants/separation = 32
+
+[node name="Label" type="Label" parent="Options" unique_id=764224946]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_48xlc")
+theme_override_font_sizes/font_size = 40
+text = "DIALOG_SLIDER"
+horizontal_alignment = 1
+
+[node name="DialogSlider" type="HSlider" parent="Options" unique_id=1794865298]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="Label2" type="Label" parent="Options" unique_id=436398361]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_48xlc")
+theme_override_font_sizes/font_size = 40
+text = "SFX_SLIDER"
+horizontal_alignment = 1
+
+[node name="SFXSlider" type="HSlider" parent="Options" unique_id=640422103]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="Label3" type="Label" parent="Options" unique_id=1101063050]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_48xlc")
+theme_override_font_sizes/font_size = 40
+text = "MUS_SLIDER"
+horizontal_alignment = 1
+
+[node name="MusSlider" type="HSlider" parent="Options" unique_id=1974505378]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="FullscreenCheckbox" type="CheckBox" parent="Options" unique_id=1988290437]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_48xlc")
+theme_override_font_sizes/font_size = 40
+text = "FULLSCREEN"
+alignment = 1
+
+[node name="return_button" type="Button" parent="Options" unique_id=1546599862]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.54901963, 0.3764706, 1)
+theme_override_fonts/font = ExtResource("2_48xlc")
+theme_override_font_sizes/font_size = 48
+text = "BACK_BUTTON"
+flat = true
+
+[node name="Credits" type="VBoxContainer" parent="." unique_id=294955927]
+unique_name_in_owner = true
+visible = false
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -491.0
+offset_top = -286.0
+offset_right = -49.0
+offset_bottom = 286.0
+grow_horizontal = 0
+grow_vertical = 2
+theme_override_constants/separation = 32
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Credits" unique_id=218061409]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Credits/VBoxContainer" unique_id=1334507814]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("2_48xlc")
+theme_override_font_sizes/font_size = 48
+text = "Animamochi"
+horizontal_alignment = 1
+
+[node name="Label2" type="Label" parent="Credits/VBoxContainer" unique_id=37883623]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.51, 0.51, 0.51, 1)
+theme_override_fonts/font = ExtResource("2_48xlc")
+theme_override_font_sizes/font_size = 40
+text = "VENTOS_CREDIT"
+horizontal_alignment = 1
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="Credits" unique_id=1566609296]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Credits/VBoxContainer2" unique_id=14191631]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("2_48xlc")
+theme_override_font_sizes/font_size = 48
+text = "Harper Moreira"
+horizontal_alignment = 1
+
+[node name="Label2" type="Label" parent="Credits/VBoxContainer2" unique_id=629383378]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.51, 0.51, 0.51, 1)
+theme_override_fonts/font = ExtResource("2_48xlc")
+theme_override_font_sizes/font_size = 40
+text = "HARPER_CREDIT"
+horizontal_alignment = 1
+
+[node name="VBoxContainer3" type="VBoxContainer" parent="Credits" unique_id=1487859983]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Credits/VBoxContainer3" unique_id=1219548772]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("2_48xlc")
+theme_override_font_sizes/font_size = 48
+text = "Indie"
+horizontal_alignment = 1
+
+[node name="Label2" type="Label" parent="Credits/VBoxContainer3" unique_id=743172550]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.51, 0.51, 0.51, 1)
+theme_override_fonts/font = ExtResource("2_48xlc")
+theme_override_font_sizes/font_size = 40
+text = "INGRID_CREDIT"
+horizontal_alignment = 1
+
+[node name="VBoxContainer4" type="VBoxContainer" parent="Credits" unique_id=1867137979]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Credits/VBoxContainer4" unique_id=2085255412]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("2_48xlc")
+theme_override_font_sizes/font_size = 48
+text = "Juliana Almeida"
+horizontal_alignment = 1
+
+[node name="Label2" type="Label" parent="Credits/VBoxContainer4" unique_id=1038187607]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.51, 0.51, 0.51, 1)
+theme_override_fonts/font = ExtResource("2_48xlc")
+theme_override_font_sizes/font_size = 40
+text = "JULIANA_CREDIT"
+horizontal_alignment = 1
+
+[node name="return_button2" type="Button" parent="Credits" unique_id=1628644268]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.54901963, 0.3764706, 1)
+theme_override_fonts/font = ExtResource("2_48xlc")
+theme_override_font_sizes/font_size = 48
+text = "BACK_BUTTON"
+flat = true
+
+[node name="Label" type="Label" parent="." unique_id=859794243]
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -132.0
+offset_top = -36.0
+offset_right = -8.0
+offset_bottom = -8.0
+grow_horizontal = 0
+grow_vertical = 0
+theme_override_font_sizes/font_size = 20
+text = "Prototype v1"
+
+[connection signal="pressed" from="Menu/start_game_button" to="." method="_on_start_game_button_pressed"]
+[connection signal="pressed" from="Menu/settings_button" to="." method="_on_settings_button_pressed"]
+[connection signal="pressed" from="Menu/credits_button" to="." method="_on_credits_button_pressed"]
+[connection signal="pressed" from="Menu/exit_button" to="." method="_on_exit_button_pressed"]
+[connection signal="pressed" from="Options/return_button" to="." method="_on_return_button_pressed"]
+[connection signal="pressed" from="Credits/return_button2" to="." method="_on_return_button_2_pressed"]

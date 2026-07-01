@@ -1,142 +1,116 @@
-[
-  {
-    "ID": 0,
-    "name": "Helena",
-    "expression": "neutral",
-    "text": "Tem algumas coisas, sim.",
-    "exec": ""
+{
+  "0": {
+	"name": "Helena",
+	"expression": "neutral",
+	"text": "Tem algumas coisas, sim.",
+	"exec": ""
   },
-  {
-    "ID": 1,
-    "name": "Helena",
-    "expression": "neutral",
-    "text": "Eu não tava dando muita bola porque você sabe como é o povo aqui, né. Uma imaginação fértil, que só.",
-    "exec": ""
+  "1": {
+	"name": "Helena",
+	"expression": "neutral",
+	"text": "Eu não tava dando muita bola porque você sabe como é o povo aqui, né. Uma imaginação fértil, que só.",
+	"exec": ""
   },
-  {
-    "ID": 2,
-    "name": "Helena",
-    "expression": "neutral",
-    "text": "Mas, talvez, sirva de algo.",
-    "exec": ""
+  "2": {
+	"name": "Helena",
+	"expression": "neutral",
+	"text": "Mas, talvez, sirva de algo.",
+	"exec": ""
   },
-  {
-    "ID": 3,
-    "name": "Helena",
-    "expression": "neutral",
-    "text": "Nós recebemos algumas denúncias de cachorros de rua que atacaram pessoas, e eles nunca fazem isso",
-    "exec": ""
+  "3": {
+	"name": "Helena",
+	"expression": "neutral",
+	"text": "Nós recebemos algumas denúncias de cachorros de rua que atacaram pessoas, e eles nunca fazem isso",
+	"exec": ""
   },
-  {
-    "ID": 4,
-    "name": "Helena",
-    "expression": "neutral",
-    "text": "A gata que geralmente aparece aqui na delegacia também sumiu.",
-    "exec": ""
+  "4": {
+	"name": "Helena",
+	"expression": "neutral",
+	"text": "A gata que geralmente aparece aqui na delegacia também sumiu.",
+	"exec": ""
   },
-  {
-    "ID": 5,
-    "name": "Helena",
-    "expression": "neutral",
-    "text": "E faz um tempo que eu não escuto pássaros de manhã.",
-    "exec": ""
+  "5": {
+	"name": "Helena",
+	"expression": "neutral",
+	"text": "E faz um tempo que eu não escuto pássaros de manhã.",
+	"exec": ""
   },
-  {
-    "ID": 6,
-    "name": "Protagonista",
-    "expression": "",
-    "text": "Os animais vêm agindo estranho, então.",
-    "exec": ""
+  "6": {
+	"name": "Protagonista",
+	"expression": "",
+	"text": "Os animais vêm agindo estranho, então.",
+	"exec": ""
   },
-  {
-    "ID": 7,
-    "name": "Helena",
-    "expression": "neutral",
-    "text": "Sim, mas não é só isso.",
-    "exec": ""
+  "7": {
+	"name": "Helena",
+	"expression": "neutral",
+	"text": "Sim, mas não é só isso.",
+	"exec": ""
   },
-  {
-    "ID": 8,
-    "name": "Helena",
-    "expression": "neutral",
-    "text": "Também recebemos alertas de alguns fazendeiros sobre marcas estranhas aparecendo na mata.",
-    "exec": ""
+  "8": {
+	"name": "Helena",
+	"expression": "neutral",
+	"text": "Também recebemos alertas de alguns fazendeiros sobre marcas estranhas aparecendo na mata.",
+	"exec": ""
   },
-  {
-    "ID": 9,
-    "name": "Protagonista",
-    "expression": "",
-    "text": "Como são essas marcas?",
-    "exec": ""
+  "9": {
+	"name": "Protagonista",
+	"expression": "",
+	"text": "Como são essas marcas?",
+	"exec": ""
   },
-  {
-    "ID": 10,
-    "name": "Helena",
-    "expression": "neutral",
-    "text": "Eu tenho algumas fotos, dá uma olhada.",
-    "exec": ""
+  "10": {
+	"name": "Helena",
+	"expression": "neutral",
+	"text": "Eu tenho algumas fotos, dá uma olhada.",
+	"exec": ""
   },
-  {
-    "ID": 11,
-    "name": "CH",
-    "expression": "",
-    "text": "Continuar",
-    "exec": ""
+  "11": {
+	"name": "Protagonista",
+	"expression": "",
+	"text": "Mais alguma coisa?",
+	"exec": ""
   },
-  {
-    "ID": 12,
-    "name": "Protagonista",
-    "expression": "",
-    "text": "Mais alguma coisa?",
-    "exec": ""
+  "12": {
+	"name": "Helena",
+	"expression": "worried",
+	"text": "Acho que é tudo…",
+	"exec": ""
   },
-  {
-    "ID": 13,
-    "name": "Helena",
-    "expression": "worried",
-    "text": "Acho que é tudo…",
-    "exec": ""
+  "13": {
+	"name": "Helena",
+	"expression": "surprised",
+	"text": "Ah, não! Verdade.",
+	"exec": ""
   },
-  {
-    "ID": 14,
-    "name": "Helena",
-    "expression": "surprised",
-    "text": "Ah, não! Verdade.",
-    "exec": ""
+  "14": {
+	"name": "Helena",
+	"expression": "neutral",
+	"text": "Também recebemos algumas ligações relatando “sons estranhos durante a noite”, mas ninguém conseguiu descrever exatamente como são.",
+	"exec": ""
   },
-  {
-    "ID": 15,
-    "name": "Helena",
-    "expression": "neutral",
-    "text": "Também recebemos algumas ligações relatando “sons estranhos durante a noite”, mas ninguém conseguiu descrever exatamente como são.",
-    "exec": ""
+  "15": {
+	"name": "Protagonista",
+	"expression": "",
+	"text": "Ok. Essas coisas aconteceram em…",
+	"exec": ""
   },
-  {
-    "ID": 16,
-    "name": "Protagonista",
-    "expression": "",
-    "text": "Ok. Essas coisas aconteceram em…",
-    "exec": ""
+  "16": {
+	"name": "CH",
+	"expression": "",
+	"text": "Algum dia específico?",
+	"exec": "delegacia_1C1_C1"
   },
-  {
-    "ID": 17,
-    "name": "CH",
-    "expression": "",
-    "text": "Algum dia específico?",
-    "exec": "delegacia_1C1_C1"
+  "17": {
+	"name": "CH",
+	"expression": "",
+	"text": "Algum local específico?",
+	"exec": "delegacia_1C1_C2"
   },
-  {
-    "ID": 18,
-    "name": "CH",
-    "expression": "",
-    "text": "Algum local específico?",
-    "exec": "delegacia_1C1_C2"
-  },
-  {
-    "ID": 19,
-    "name": "CH",
-    "expression": "",
-    "text": "Algum horário específico?",
-    "exec": "delegacia_1C1_C3"
+  "18": {
+	"name": "CH",
+	"expression": "",
+	"text": "Algum horário específico?",
+	"exec": "delegacia_1C1_C3"
   }
-]
+}

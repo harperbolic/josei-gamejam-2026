@@ -1,0 +1,26 @@
+{
+  "0": {
+	"name": "Protagonista",
+	"expression": "",
+	"text": "Eles tiveram o que mereceram.",
+	"exec": ""
+  },
+  "1": {
+	"name": "Helena",
+	"expression": "angry",
+	"text": "Ainda que tenham cometido um crime, eles eram pessoas, {name}.",
+	"exec": ""
+  },
+  "2": {
+	"name": "Helena",
+	"expression": "angry",
+	"text": "Tinham que ser julgadas e condenadas corretamente.",
+	"exec": ""
+  },
+  "3": {
+	"name": "Helena",
+	"expression": "angry",
+	"text": "Não cabia a mim tirar a vida deles, assim.",
+	"exec": ""
+  }
+}

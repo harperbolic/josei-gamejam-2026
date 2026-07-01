@@ -1,0 +1,62 @@
+{
+  "0": {
+	"name": "Helena",
+	"expression": "neutral",
+	"text": "Acho difícil, você sabe o quanto as pessoas aqui amam essa festa.",
+	"exec": ""
+  },
+  "1": {
+	"name": "Helena",
+	"expression": "worried",
+	"text": "Porém...",
+	"exec": ""
+  },
+  "2": {
+	"name": "Protagonista",
+	"expression": "",
+	"text": "O quê?",
+	"exec": ""
+  },
+  "3": {
+	"name": "Helena",
+	"expression": "worried",
+	"text": "Talvez tenham pessoas que queiram ME prejudicar.",
+	"exec": ""
+  },
+  "4": {
+	"name": "Protagonista",
+	"expression": "",
+	"text": "Como assim?",
+	"exec": ""
+  },
+  "5": {
+	"name": "Helena",
+	"expression": "neutral",
+	"text": "Bom, você sabe que eu sempre fui muito determinada a consertar essa cidade, né?",
+	"exec": ""
+  },
+  "6": {
+	"name": "Helena",
+	"expression": "neutral",
+	"text": "E tem funcionado. As taxas de crimes caíram, a segurança aumentou, a cidade está mais limpa.",
+	"exec": ""
+  },
+  "7": {
+	"name": "Helena",
+	"expression": "neutral",
+	"text": "Mas, às vezes, eu tenho que fazer coisas que não agradam todo mundo, também. Lembra daquela sibipiruna na praça da igreja?",
+	"exec": ""
+  },
+  "8": {
+	"name": "CH",
+	"expression": "",
+	"text": "A \"árvore de beijo\"?",
+	"exec": "delegacia_1C3_C1"
+  },
+  "9": {
+	"name": "CH",
+	"expression": "",
+	"text": "A que ficava perto da estátua?",
+	"exec": "delegacia_1C3_C2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "0": {
+	"name": "Protagonista",
+	"expression": "",
+	"text": "Você não fez por querer. Não é a mesma coisa.",
+	"exec": ""
+  },
+  "1": {
+	"name": "Helena",
+	"expression": "sad_smile",
+	"text": "Bom, é meio difícil convencer meu cérebro disso, mas obrigada por tentar.",
+	"exec": ""
+  },
+  "2": {
+	"name": "Exec",
+	"expression": "",
+	"text": "start_dialog",
+	"exec": "delegacia_1C2_C1_3"
+  }
+}

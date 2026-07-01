@@ -1,65 +1,56 @@
-[
-  {
-    "ID": 0,
+{
+  "0": {
     "name": "Protagonista",
     "expression": "",
     "text": "Ei. Seja o que for, você pode me contar.",
     "exec": ""
   },
-  {
-    "ID": 1,
+  "1": {
     "name": "Helena",
     "expression": "sad_smile",
     "text": "Certo.",
     "exec": ""
   },
-  {
-    "ID": 2,
+  "2": {
     "name": "Helena",
     "expression": "worried",
     "text": "Eu atirei na roda do carro. Pra parar ele, sabe?",
     "exec": ""
   },
-  {
-    "ID": 3,
+  "3": {
     "name": "Helena",
     "expression": "worried",
     "text": "Eu nem acertei. Mas acho que os caras se assustaram ou algo assim, porque viraram o volante com tudo.",
     "exec": ""
   },
-  {
-    "ID": 4,
+  "4": {
     "name": "Helena",
     "expression": "worried",
     "text": "O carro capotou e foi parar no meio de uma plantação de soja.",
     "exec": ""
   },
-  {
-    "ID": 5,
+  "5": {
     "name": "Protagonista",
     "expression": "",
     "text": "Os ladrões...",
     "exec": ""
   },
-  {
-    "ID": 6,
+  "6": {
     "name": "Helena",
     "expression": "rubbing_temples",
     "text": "Não sobreviveram.",
     "exec": ""
   },
-  {
-    "ID": 7,
+  "7": {
     "name": "CH",
     "expression": "",
     "text": "Chocar-se",
     "exec": "delegacia_1C2_C1_C1"
   },
-  {
-    "ID": 8,
+  "8": {
     "name": "CH",
     "expression": "",
     "text": "Apoiá-la",
     "exec": "delegacia_1C2_C1_C2"
   }
-]
+}

@@ -1,0 +1,57 @@
+[gd_scene format=3 uid="uid://cjfavietksjp2"]
+
+[ext_resource type="Script" uid="uid://c7gpi55bjmcmo" path="res://Scripts/Autoload/Audio.gd" id="1_l04ps"]
+[ext_resource type="AudioStream" uid="uid://7p1r3eud1cjc" path="res://Assets/sfx/button.wav" id="2_c8j57"]
+[ext_resource type="AudioStream" uid="uid://b0tjhio43v4cy" path="res://Assets/music/main_menu.mp3" id="2_y8l05"]
+[ext_resource type="AudioStream" uid="uid://cl0twlncj37af" path="res://Assets/sfx/dialog.wav" id="3_pess6"]
+[ext_resource type="AudioStream" uid="uid://dyt6xmg8kfluc" path="res://Assets/sfx/enter.wav" id="4_fqpxi"]
+[ext_resource type="AudioStream" uid="uid://dphkn02mpnyke" path="res://Assets/sfx/name_chosen.wav" id="5_etkin"]
+[ext_resource type="AudioStream" uid="uid://dwj8pji7ma5m8" path="res://Assets/sfx/knock.mp3" id="6_fkw8n"]
+[ext_resource type="AudioStream" uid="uid://uqvk0615mewx" path="res://Assets/music/dark_drone.wav" id="6_k46ri"]
+[ext_resource type="AudioStream" uid="uid://m8a6jo4f2ssy" path="res://Assets/sfx/officeblowing.mp3" id="7_k46ri"]
+
+[node name="Audio" type="Node" unique_id=1617316118]
+process_mode = 3
+script = ExtResource("1_l04ps")
+
+[node name="SFX" type="Node" parent="." unique_id=1394238482]
+unique_name_in_owner = true
+
+[node name="click" type="AudioStreamPlayer" parent="SFX" unique_id=1037211588]
+stream = ExtResource("2_c8j57")
+bus = &"SFX"
+
+[node name="voice" type="AudioStreamPlayer" parent="SFX" unique_id=250729180]
+stream = ExtResource("3_pess6")
+bus = &"SFX"
+
+[node name="enter" type="AudioStreamPlayer" parent="SFX" unique_id=410510946]
+stream = ExtResource("4_fqpxi")
+bus = &"SFX"
+
+[node name="name_chosen" type="AudioStreamPlayer" parent="SFX" unique_id=687777012]
+stream = ExtResource("5_etkin")
+bus = &"SFX"
+
+[node name="knock" type="AudioStreamPlayer" parent="SFX" unique_id=1615404135]
+stream = ExtResource("6_fkw8n")
+bus = &"SFX"
+
+[node name="Music" type="Node" parent="." unique_id=331065891]
+unique_name_in_owner = true
+
+[node name="main_menu" type="AudioStreamPlayer" parent="Music" unique_id=1648631757]
+stream = ExtResource("2_y8l05")
+bus = &"Music"
+
+[node name="dark_drone" type="AudioStreamPlayer" parent="Music" unique_id=662785778]
+stream = ExtResource("6_k46ri")
+bus = &"Music"
+
+[node name="Ambient" type="Node" parent="." unique_id=1243237409]
+unique_name_in_owner = true
+
+[node name="office" type="AudioStreamPlayer" parent="Ambient" unique_id=1238230817]
+stream = ExtResource("7_k46ri")
+volume_db = -25.0
+bus = &"Ambient"

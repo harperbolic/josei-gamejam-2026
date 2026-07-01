@@ -5,8 +5,6 @@ class_name DialogSystem
 @onready var choice_layer_scene = preload("res://Components/UI/choices_layer.tscn")
 @onready var choice_button_scene = preload("res://Components/UI/choice_button.tscn")
 
-
-
 var dialog_lines : Dictionary = {}
 var current_line_index = 0
 
@@ -70,6 +68,7 @@ func _display_next_line():
 			is_choosing = false
 			finish_dialog()
 		"Exec":
+			print("Chain dialog: " + dialog_lines[str(current_line_index)].exec)
 			match dialog_lines[str(current_line_index)].text:
 				"start_dialog":
 					dialog_lines = Def.dialog_lines.get(dialog_lines[str(current_line_index)].exec)

@@ -2,8 +2,8 @@
 
 [ext_resource type="Script" uid="uid://cnrsrme26imrb" path="res://Scripts/UI/choice_button.gd" id="1_3dbks"]
 [ext_resource type="Texture2D" uid="uid://cdw7eitlpxchq" path="res://Assets/UI/choice_button.png" id="1_y5yta"]
+[ext_resource type="Texture2D" uid="uid://dhkr6l33yxuwv" path="res://Assets/UI/ui_SelectingChoice.png" id="3_3dbks"]
 [ext_resource type="FontFile" uid="uid://cflsy26icxrcp" path="res://Assets/EB_Garamond/EBGaramond-VariableFont_wght.ttf" id="4_ptcf2"]
-[ext_resource type="Texture2D" uid="uid://c03wjm7egcpv2" path="res://Assets/UI/icon_log.png" id="4_yr7gk"]
 
 [node name="Choice" type="Control" unique_id=1647012803]
 custom_minimum_size = Vector2(920, 134)
@@ -47,7 +47,7 @@ visible = false
 z_as_relative = false
 layout_mode = 2
 size_flags_vertical = 4
-texture = ExtResource("4_yr7gk")
+texture = ExtResource("3_3dbks")
 stretch_mode = 2
 flip_h = true
 

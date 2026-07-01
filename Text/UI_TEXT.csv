@@ -1,0 +1,59 @@
+key,en,pt
+,,
+WARNING_LABEL,WARNING,ATENÇÃO
+FICTION_WARNING_LABEL,"This game is a work of fiction.
+Any resemblance to actual events, places or persons, is entirely coincidental.","Este jogo é uma obra de ficção.
+Qualquer semelhança com eventos, lugares ou pessoas reais é mera coincidência."
+LIGHTS_WARNING_LABEL,"This game contains flashing effects on the screen.
+In rare cases, some people may experience symptoms whilst watching.
+If you have experienced any symptoms in the past, please consult your doctor before playing. If you experience any symptoms whilst playing, stop immediately and seek medical attention.","Este jogo contém efeitos piscantes na tela.
+Em casos raros, algumas pessoas podem sentir sintomas ao assistir.
+Se você já sentiu algum sintoma no passado, consulte seu médico antes de jogar. Caso sinta algum sintoma ao jogar, pare imediatamente e procure atendimento médico."
+A_GAME_BY_LABEL,A game by:,Um jogo por:
+TITLE_CREDITS,"Alex, Harper, Ingrid, Juliana.","Alex, Harper, Ingrid, Juliana."
+START_GAME,Start Game,Começar Jogo
+SETTINGS_BUTTON,Settings,Opções
+CREDITS_BUTTON,Credits,Créditos
+QUIT_BUTTON,Quit,Sair
+DIALOG_SLIDER,Sound Effects,Efeitos Sonoros
+SFX_SLIDER,Ambient,Ambiente
+MUS_SLIDER,Music,Música
+FULLSCREEN,Fullscreen,Tela Cheia
+VENTOS_CREDIT,Illustration and Animation,Ilustração e Animação
+HARPER_CREDIT,Programming and Audio,Programação e Áudio
+INGRID_CREDIT,Premise and Writing,Premissa e Roteiro
+JULIANA_CREDIT,Production,Produção e Game Design
+BACK_BUTTON,Back,Voltar
+NAME_INTRO,"You had a vision.
+
+Something is about to happen in Terra Rubra.
+
+You do not yet know what it is.
+Nor whether it is already too late to turn back.","Você teve uma visão.
+
+Algo está prestes a acontecer em Terra Rubra.
+
+Você ainda não sabe o que é.
+Nem sabe se já é tarde demais para voltar atrás."
+NAME_INPUT_PLACEHOLDER,Enter your name,Digite seu nome
+NAME_INPUT_CONFIRM,Confirm,Confirmar
+NAME_REVEAL,"
+A name Terra Rubra will never forget.","
+Um nome que Terra Rubra jamais esquecerá."
+NAME_INTRO2,"Every choice leaves a mark.
+Some reveal what was hidden. Others close doors.
+None comes without consequences.
+
+In the end, there is no right path.
+There is only the path you choose to follow.
+","Toda escolha deixa marcas.
+Algumas revelam o que estava oculto. Outras fecham portas.
+Nenhuma, porém, permanece sem consequências.
+
+No fim, não há caminho certo.
+Há apenas o caminho que você decide seguir."
+NAME_INTRO3,"But before anything else…
+
+Tell us your name.","Mas, antes de tudo…
+
+Nos diga seu nome."

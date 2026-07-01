@@ -1,0 +1,20 @@
+{
+  "0": {
+    "name": "Protagonista",
+    "expression": "",
+    "text": "Que horror…",
+    "exec": ""
+  },
+  "1": {
+    "name": "Helena",
+    "expression": "anxious",
+    "text": "Acha que eu não sei?",
+    "exec": ""
+  },
+  "2": {
+    "name": "Exec",
+    "expression": "",
+    "text": "start_dialog",
+    "exec": "delegacia_1C1_C1_2"
+  }
+}

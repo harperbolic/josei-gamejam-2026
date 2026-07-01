@@ -1,16 +1,8 @@
-[
-  {
-    "ID": 0,
+{
+  "0": {
     "name": "Helena",
     "expression": "neutral",
     "text": "Não. Os relatos vieram de vários pontos da cidade.",
     "exec": ""
-  },
-  {
-    "ID": 1,
-    "name": "Exec",
-    "expression": "",
-    "text": "start_dialog",
-    "exec": "delegacia_2"
   }
-]
+}
